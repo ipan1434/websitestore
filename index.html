@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toko Jualan Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 20px;
+      font-size: 26px;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    button {
+      padding: 15px 30px;
+      margin-top: 25px;
+      background-color: #0088cc;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #list {
+      display: none;
+      margin-top: 40px;
+      text-align: left;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    }
+
+    .item {
+      margin-bottom: 18px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .order {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🛍️ Selamat Datang di 𝓴𝓪𝓷𝓰 𝓢𝓸𝓶𝓪𝔂 𝓼𝓽𝓸𝓻𝓮</header>
+
+  <!-- Gambar Awal -->
+  <img src="https://files.catbox.moe/3zertp.jpg" alt="Banner Toko">
+
+  <!-- Musik -->
+  <audio autoplay loop>
+    <source src="https://files.catbox.moe/f7v6ux.mp4">
+    Musik tidak didukung browser ini.
+  </audio>
+
+  <!-- Tombol -->
+  <button onclick="document.getElementById('list').style.display='block'; this.style.display='none';">
+    🎁 Lihat Daftar Jualan
+  </button>
+
+  <!-- List Produk -->
+  <div id="list">
+    <div class="item">
+      <strong>1. Userbot Telegram</strong><br>
+      Harga: 20K<br>
+      <a class="order" href="https://t.me/dedeksex" target="_blank">Order Sekarang</a>
+    </div>
+
+    <div class="item">
+      <strong>2. Userbot V2</strong><br>
+      Harga: 10K<br>
+      <a class="order" href="https://t.me/dedeksex" target="_blank">Order Sekarang</a>
+    </div>
+
+    <div class="item">
+      <strong>3. Jasa Buat Bot Music</strong><br>
+      Harga: 150K + Asisten<br>
+      Tanpa Asisten: 100K<br>
+      <a class="order" href="https://t.me/dedeksex" target="_blank">Order Sekarang</a>
+    </div>
+
+    <div class="item">
+      <strong>4. Repository NavyUBot V1</strong><br>
+      Full tutor + Free run VPS/RDP<br>
+      Harga: 500K<br>
+      <a class="order" href="https://t.me/dedeksex" target="_blank">Order Sekarang</a>
+    </div>
+
+    <div class="item">
+      <strong>5. Repository NavyUBot V2</strong><br>
+      Full tutor + Free run VPS/RDP<br>
+      Harga: 1 Juta<br>
+      <a class="order" href="https://t.me/dedeksex" target="_blank">Order Sekarang</a>
+    </div>
+  </div>
+
+</body>
+</html>
